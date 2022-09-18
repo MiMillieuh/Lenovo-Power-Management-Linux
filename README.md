@@ -31,6 +31,6 @@ I do recomand using gamemode but don't put any custome files in your user config
 ## Tested on :
 
 
-| Computer  | Tested |
+| Computer  | Tested distro |
 | ------------- | ------------- |
-| Lenovo Yoga Slim 7 Pro X | Tested  |
+| Lenovo Yoga Slim 7 Pro X | Fedora 36  |
