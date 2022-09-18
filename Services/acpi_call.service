@@ -1,0 +1,8 @@
+[Unit]
+Description=<description_about_your_service>
+
+[Service]
+ExecStart=/bin/sh -c "modprobe acpi_call && echo '\\_SB.PCI0.LPCB.EC._Q2A' > /proc/acpi/call"
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=<description_about_your_service>
+After=acpi_call.service
+
+[Service]
+ExecStart=/bin/sh -c "sh /opt/lenovopower/lenovopowercheck.sh"
+
+[Install]
+WantedBy=multi-user.target
