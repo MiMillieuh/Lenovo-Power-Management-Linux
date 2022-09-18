@@ -3,10 +3,10 @@ A powermanagement service that restore and use acpi_call to control the computer
 
 ## Important :
 
-I recomand to back-up the sudoers (/etc/sudoers) files as it needs permission to write acpi calls without you entering your password each time.
+I recomand to back-up the sudoers (`/etc/sudoers`) files as it needs permission to write acpi calls without you entering your password each time.
 (it will be backed up automatically and restored at the uninstall)
 
-Gamemode user, the installer will detect if you use gamemode. if that's the case it will create a gamemode.ini in /usr/share/gamemode/gamemode.ini
+Gamemode user, the installer will detect if you use gamemode. if that's the case it will create a gamemode.ini in `/usr/share/gamemode/gamemode.ini`
 (it will be backed up automatically and restored at the uninstall)
 I do recomand using gamemode but don't put any custome files in your user config or working dir. otherwise it won't launch the power mode.
 
