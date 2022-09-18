@@ -1,6 +1,10 @@
 # Lenovo-Power-Management-Linux
 A powermanagement service that restore and use acpi_call to control the computer powermanagement from lenovo
 
+| Computer  | Tested |
+| ------------- | ------------- |
+| Lenovo Yoga Slim 7 Pro X | Tested  |
+
 ## Important :
 
 I recomand to back-up the sudoers (`/etc/sudoers`) files as it needs permission to write acpi calls without you entering your password each time.
