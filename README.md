@@ -3,6 +3,8 @@ A powermanagement service that restore and use acpi_call to control the computer
 
 ## Important :
 
+This install restores acpi calls. if your distro already have them you should just remove the acpi service from the script folder
+
 I recomand to back-up the sudoers (`/etc/sudoers`) files as it needs permission to write acpi calls without you entering your password each time.
 (it will be backed up automatically and restored at the uninstall)
 
