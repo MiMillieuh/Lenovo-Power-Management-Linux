@@ -1,3 +1,7 @@
 #!/bin/bash
 
-watch -n 10 /opt/lenovopower/lenovo-balanced.sh
+/opt/lenovopower/lenovo-balanced.sh
+
+sleep 10
+
+/opt/lenovopower/lenovopowercheck.sh
