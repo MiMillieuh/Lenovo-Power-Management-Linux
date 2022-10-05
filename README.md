@@ -5,6 +5,7 @@
 You'll need to add two lines in /etc/sudoers :
 
 `yourusername ALL = (root) NOPASSWD: /opt/lenovopower/gm-lenovo-power.sh`
+
 `yourusername ALL = (root) NOPASSWD: /opt/lenovopower/gm-lenovo-balanced.sh`
 
 Replace yourusername by your user name.
