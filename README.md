@@ -1,12 +1,13 @@
 # Lenovo-Power-Management-Linux
-A powermanagement service that restore and use acpi_call to control the computer powermanagement from lenovo
 
 ## Important :
 
-This install restores acpi calls. if your distro already have them you should just remove the acpi service from the script folder
+You'll need to add two lines in /etc/sudoers :
 
-I recomand to back-up the sudoers (`/etc/sudoers`) files as it needs permission to write acpi calls without you entering your password each time.
-(it will be backed up automatically and restored at the uninstall)
+`yourusername ALL = (root) NOPASSWD: /opt/lenovopower/gm-lenovo-power.sh`
+`yourusername ALL = (root) NOPASSWD: /opt/lenovopower/gm-lenovo-balanced.sh`
+
+Replace yourusername by your user name.
 
 Gamemode user, the installer will detect if you use gamemode. if that's the case it will create a gamemode.ini in `/usr/share/gamemode/gamemode.ini`
 (it will be backed up automatically and restored at the uninstall)
