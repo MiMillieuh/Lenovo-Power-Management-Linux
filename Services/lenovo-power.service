@@ -1,6 +1,6 @@
 [Unit]
-Description=<description_about_your_service>
-After=acpi_call.service
+Description=Auto power Management without acpi_call
+After=power-profiles-daemon.service
 
 [Service]
 ExecStart=/bin/sh -c "sh /opt/lenovopower/lenovopowercheck.sh"

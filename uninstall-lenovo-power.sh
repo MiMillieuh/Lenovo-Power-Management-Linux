@@ -5,15 +5,11 @@ if [[ "$USER" != "root" ]]; then
     exit 1
 fi
 
-systemctl disable acpi_call.service
-systemctl stop acpi_call.service
-
 systemctl disable lenovo-power.service
 systemctl stop lenovo-power.service
 
 rm -rf /opt/lenovopower/
 
-rm /etc/systemd/system/acpi_call.service
 rm /etc/systemd/system/lenovo-power.service
 
 
